@@ -232,11 +232,11 @@ header .welcome p {
     width: 120px;
     margin-bottom: 20px;
 }
-/*info-news Section*/
-.info-news {
+/*info Section*/
+.info {
     padding: 100px 0;
 }
-.info-news .part-heading {
+.info .part-heading {
     margin-bottom: 60px;
 }
 .custom-heading h2 {
@@ -245,6 +245,7 @@ header .welcome p {
     display: inline-block;
     line-height: 1;
     color:#e74c3c;
+    font-family: lovelo;
 }
 .custom-heading {
     text-align: center;
@@ -262,4 +263,13 @@ header .welcome p {
 .accordion .panel-content {
     padding: 25px;
     color:#2c3e50;
+}
+/*Our Client*/
+.our-client i {
+    margin-left: 50%;
+    margin-top: 20px;
+}
+.our-client .fa-5x {
+    
+    font-size: 7em;
 }
