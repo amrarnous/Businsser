@@ -343,7 +343,7 @@ header .welcome .btn-primary {
 .end p {
     color: #ecf0f1;
     font-family: 'Raleway';
-    margin: 0;
+    margin:0;
 }
 /*Start Scroll */
 .scroll {
@@ -402,21 +402,6 @@ header .welcome .btn-primary {
 .sk-cube-grid .sk-cube4 {
   -webkit-animation-delay: 0.1s;
           animation-delay: 0.1s; }
-.sk-cube-grid .sk-cube5 {
-  -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s; }
-.sk-cube-grid .sk-cube6 {
-  -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s; }
-.sk-cube-grid .sk-cube7 {
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s; }
-.sk-cube-grid .sk-cube8 {
-  -webkit-animation-delay: 0.1s;
-          animation-delay: 0.1s; }
-.sk-cube-grid .sk-cube9 {
-  -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s; }
 
 @-webkit-keyframes sk-cubeGridScaleDelay {
   0%, 70%, 100% {

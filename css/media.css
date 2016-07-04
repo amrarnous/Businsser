@@ -18,6 +18,9 @@
         padding-bottom: 15px;
         
     }
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    font-size: 22px;
+}
     .navbar-default .navbar-toggle {
         border-color:#e74c3c; 
     }
@@ -62,6 +65,9 @@
 .send_request .btn-danger {
     margin-left: 35%;
     }
+.our-client i {
+    margin-left: 35%;    
+}
 }
 /*Small Screen*/
 @media (min-width: 768px) and (max-width: 991px) {
@@ -78,6 +84,14 @@
     font-size: 20px;
     padding-bottom: 20px;
 }
+    header .welcome .btn-primary {
+
+        margin-bottom:20px;
+
+    }
+    .re-blogs h3 , p {
+        max-width: 300px;
+    }
     .services .container .row {
         margin-left: 20%;
 }
