@@ -1,5 +1,5 @@
 body {
-
+    background-color: #ecf0f1;
     padding-top:80px; 
 }
 .navbar-default {
@@ -60,5 +60,45 @@ header .layer h1 {
 header .layer i {
     display: block;
     text-align: center;
+    color: #ecf0f1;
+}
+/*Our Company*/
+.company_skills {
+    margin-top: 100px;
+}
+.company_skills .our_company {
+    padding-left: 200px;
+}
+.company_skills .our_company h2 {
+    padding-bottom: 20px;
+    color: #e74c3c ;
+}
+.company_skills .our_company .about_company {
+    max-width: 300px;
+    color: #2c3e50 ;
+    font-family: 'Raleway';
+    padding-bottom: 20px;
+}
+.company_skills .our_company .btn-danger {
+    background-color: #e74c3c;
+}
+/* Our Skills*/
+.company_skills .our_skills h2 {
+    padding-bottom: 20px;
+    color: #e74c3c ;
+    text-align: center;
+}
+.company_skills .our_skills {
+    padding-right: 60px;
+}
+.company_skills .our_skills .progress {
+    height: 30px;
+    border-radius: 0px;
+    background-color: #ecf0f1;
+    border: 1px solid #2c3e50;
+}
+.company_skills .our_skills .progress-bar {
+    line-height: 30px;
+    background-color: #2c3e50;
     color: #ecf0f1;
 }
