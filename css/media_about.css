@@ -27,10 +27,21 @@
     .navbar-default .navbar-toggle .icon-bar {
         background-color:#e74c3c;
     }
+    .company_skills h2 {
+    margin-top: 100px;
+}
+    /*Our Team*/
+    .our_team .person {
+        margin-bottom: 40px;
+    }
+
 }
 /*Small Screen*/
 @media (min-width: 768px) and (max-width: 991px) {
-    
+        /*Our Team*/
+    .our_team .person {
+        margin-bottom: 40px;
+    }
 }
 /*medium Screen*/
 @media (min-width: 992px) and (max-width: 1199px) {
