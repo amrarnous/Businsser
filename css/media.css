@@ -19,7 +19,7 @@
         
     }
 .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
-    font-size: 22px;
+    font-size: 30px;
 }
     .navbar-default .navbar-toggle {
         border-color:#e74c3c; 
@@ -66,6 +66,21 @@
     }
 .our-client i {
     margin-left: 35%;    
+}
+.services .layer {
+    height: 200px;
+}
+.services .service1 {
+    height: 200px;
+}
+.services .service2 {
+    height: 200px;
+}
+.services .service3 {
+    height: 200px;
+}
+.services .service4 {
+    height: 200px;
 }
 }
 /*Small Screen*/
