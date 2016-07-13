@@ -73,7 +73,7 @@ header .layer i {
     color: #e74c3c ;
 }
 .company_skills .our_company .about_company {
-    max-width: 300px;
+    max-width: 100%;
     color: #2c3e50 ;
     font-family: 'Raleway';
     padding-bottom: 20px;
@@ -81,6 +81,7 @@ header .layer i {
 .company_skills .our_company .btn-danger {
     background-color: #e74c3c;
     font-family: 'Raleway';
+    margin-bottom: 20px;
 }
 /* Our Skills*/
 .company_skills .our_skills h2 {
