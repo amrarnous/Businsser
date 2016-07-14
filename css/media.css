@@ -97,6 +97,7 @@
     width: 500px;
     font-size: 20px;
     padding-bottom: 20px;
+
 }
     header .welcome .btn-primary {
 
@@ -123,6 +124,13 @@
 }
     .send_request .btn-danger {
     margin-left: 40%;
+}
+.end {
+    height: 220px;
+}
+.end p {
+
+    margin-left: 33%;
 }
 }
 /*medium Screen*/
