@@ -27,4 +27,12 @@
     .navbar-default .navbar-toggle .icon-bar {
         background-color:#e74c3c;
     }
+    .language {
+    left: 50%;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .language {
+        left: 88%;
+   }
 }

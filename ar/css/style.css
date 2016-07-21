@@ -1,0 +1,434 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css)
+body {
+    background-color: #ecf0f1;
+    padding-top: 80px;
+}
+.navbar-default {
+    width:100%;
+    background-color: #2c3e50;
+    height: 100px;
+    border-bottom:2px solid #e74c3c;
+}
+.navbar-default .navbar-brand {
+    margin-right: 50px;    
+}
+.navbar-default .navbar-brand sup {
+    font-size: 10px;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-right: 66px;
+    margin-left: 66px;
+    margin-top: 35px;
+    font-size: 35px;
+    color: #e74c3c;
+    padding:0;
+    font-family: 'Orbitron';
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: transparent;
+    padding: 0;
+    color:#e74c3c;
+    margin-top:35px;
+    font-size: 15px;
+    font-family: 'DroidArabicKufiRegular'; 
+    margin-left: 45px;
+}
+.navbar-default .navbar-nav > li > a {
+    margin-left: 25px;
+    padding: 0;
+    color:#ecf0f1;
+    margin-top:35px;
+    font-size: 15px;
+   font-family: 'DroidArabicKufiRegular'; 
+}
+.navbar-default .navbar-nav > li > a:hover {
+        color:#e74c3c;
+}
+/*End NavBar*/
+header {
+    background: url('../img/what-we-do-header.jpg') no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    min-height: 580px;
+}
+header .welcome {
+    background: rgba(41,128,185,0.6);
+    min-height: 600px;
+}
+header .welcome h1 {
+    color: #ecf0f1;
+    font-size: 73px;
+    margin-top: 150px;
+    padding-bottom: 20px;
+    width: auto;
+    font-family: 'DroidArabicKufiRegular'; 
+}
+header .welcome p {
+    text-transform: capitalize;
+    color:#ecf0f1;
+    width: 500px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-family: 'Raleway';
+}
+header .welcome .btn-primary {
+    font-family: 'DroidArabicKufiRegular'; 
+}
+/*Recently Blogs*/
+.re-blogs {
+    margin-top: 100px;
+}
+.re-blogs img {
+    border-radius: 4px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    width: 300px;
+    height: 200px;
+}
+.re-blogs h3 {
+    color: #e74c3c;
+    font-family: 'Fjalla One';
+}
+.re-blogs p {
+    min-width:300px;
+    font-family: 'Raleway';
+}
+.re-blogs .btn-danger {
+    color: #ecf0f1;
+    background-color: #2c3e50;
+    border-color: transparent;
+    transition: 1s all;
+    margin-bottom: 10px;
+    font-family: 'Fjalla One';
+}
+.re-blogs .btn-danger:hover {
+    background-color: #ecf0f1;
+    border-color: #2c3e50;
+    color: #2c3e50;
+}
+/*Start Section Services*/
+.services h1 {
+    font-family: 'Fjalla One';
+    margin-top: 100px;
+    margin-bottom: 60px;
+    font-size: 35px;
+    color: #e74c3c;
+}
+.services .layer {
+    position: absolute;
+    left:0;
+    width: 100px;
+    height: 150px;
+    background-color: #e74c3c;
+}
+.services .layer img {
+    margin-left: 15px;
+    margin-top: 35%;
+    width: 68px;
+    height: 68px;
+}
+.services h3 {
+    font-family: 'Fjalla One';
+    color: #e74c3c;
+    margin-left: 105px;
+    padding-top: 10px;
+}
+.services p {
+    margin-left: 105px;
+    color: #ecf0f1;
+    line-height: 16px;
+    padding-right: 10px;
+    font-family: 'Raleway';
+}
+.services .service1 {
+    position: relative;
+    max-width: 460px;
+    height: 150px;
+    background-color: #2c3e50;
+}
+.services .service2 {
+    position: relative;
+    max-width: 460px;
+    height: 150px;
+    background-color: #2c3e50;
+    margin-left: 40px;
+}
+.services .service3 {
+    position: relative;
+    max-width: 460px;
+    height: 150px;
+    background-color: #2c3e50;
+    margin-top: 40px;
+}
+.services .service4 {
+    position: relative;
+    max-width: 460px;
+    height: 150px;
+    background-color: #2c3e50;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+/*Send Request Section*/
+.send_request {
+    margin-top: 100px;
+    background: url(../img/cover_request.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 570px;
+    max-width: 100%;
+}
+.send_request .layer_color {
+    background-color: rgba(44,62,80,0.4);
+    max-height: 570px;
+    width: 100%;
+}
+.send_request  .content h2 {
+    font-family: 'DroidArabicKufiRegular'; 
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #ecf0f1;
+}
+
+.send_request textarea.form-control {
+    height: 170px;
+    background-color: rgba(231,76,60,0.60);
+    border:none;
+    color: #ecf0f1;
+    margin-bottom: 20px;
+}
+.send_request textarea.form-control::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:#ecf0f1;
+    font-family: 'DroidArabicKufiRegular'; 
+}
+.send_request textarea.form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:#ecf0f1;
+    font-family: 'DroidArabicKufiRegular'; 
+}
+.send_request textarea.form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:#ecf0f1;
+    font-family: 'DroidArabicKufiRegular'; 
+}
+.send_request textarea.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:#ecf0f1;
+    font-family: 'DroidArabicKufiRegular'; 
+}
+.send_request input[type="text"],.send_request input[type="email"] {
+    height: 50px;
+    margin-bottom: 40px;
+    background-color: rgba(231,76,60,0.60);
+    border:none;
+    color: #ecf0f1;
+}
+.send_request input[type="email"]::-webkit-input-placeholder {
+   color: #ecf0f1 ;
+    font-family: 'DroidArabicKufiRegular'; 
+}
+
+.send_request input[type="email"]:-moz-placeholder { /* Firefox 18- */
+   color: #ecf0f1 ;
+    font-family: 'DroidArabicKufiRegular'; 
+}
+
+.send_request input[type="email"]::-moz-placeholder {  /* Firefox 19+ */
+   color: #ecf0f1 ;
+    font-family: 'DroidArabicKufiRegular'; 
+}
+
+.send_request input[type="email"]:-ms-input-placeholder {  
+   color: #ecf0f1 ;
+    font-family: 'DroidArabicKufiRegular'; 
+}
+
+.send_request input[type="text"]::-webkit-input-placeholder {
+   color: #ecf0f1 ;
+    font-family: 'DroidArabicKufiRegular'; 
+}
+
+.send_request input[type="text"]:-moz-placeholder { /* Firefox 18- */
+   color: #ecf0f1 ; 
+    font-family: 'DroidArabicKufiRegular'; 
+}
+
+.send_request input[type="text"]::-moz-placeholder {  /* Firefox 19+ */
+   color: #ecf0f1 ; 
+    font-family: 'DroidArabicKufiRegular'; 
+}
+
+.send_request input[type="text"]:-ms-input-placeholder {  
+   color: #ecf0f1 ; 
+    font-family: 'DroidArabicKufiRegular'; 
+}
+.send_request .btn-danger {
+    border:none;
+    margin-right: 40px;
+    background-color: rgba(231,76,60,0.60);
+    width: 120px;
+    margin-bottom: 20px;
+    font-family: 'DroidArabicKufiRegular'; 
+}
+/*info Section*/
+.info {
+    padding: 100px 0;
+}
+.info .part-heading {
+    margin-bottom: 60px;
+}
+.custom-heading h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    display: inline-block;
+    line-height: 1;
+    color:#e74c3c;
+    font-family: 'DroidArabicKufiRegular'; 
+}
+.custom-heading {
+    text-align: center;
+    width: 100%;
+}
+.panel-default > .panel-heading {
+    color: #ecf0f1;
+    background-color: #2c3e50;
+    border-color: #e74c3c;
+    font-family: 'Fjalla One';
+}
+.panel-default .panel-title .fa-arrow-down {
+    margin-right: 10px;
+    color: #e74c3c;
+}
+.accordion .panel-content {
+    padding: 25px;
+    color:#2c3e50;
+    font-family: 'Raleway';
+}
+/*Our Client*/
+.our-client i {
+    margin-left: 50%;
+    margin-top: 20px;
+}
+.our-client .fa-5x {
+    
+    font-size: 7em;
+}
+/*footer Section*/
+.end {
+    width:100%;
+    height: 200px;
+    background-color: #2c3e50;
+}
+.end h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: #ecf0f1;
+    font-family: 'Orbitron';
+}
+.end .fa-facebook {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: 1s all;
+}
+.end .fa-facebook:hover {
+    color:#8b9dc3;
+}
+.end .fa-twitter {
+    transition: 1s all;
+    color: #ecf0f1;
+    text-decoration: none;
+    margin-left: 20px;
+
+}
+.end .fa-twitter:hover {
+    color:#00aced; 
+}
+.end span {
+    display: block;
+    padding-top: 20px;
+    color: #ecf0f1;
+    font-family: 'DroidArabicKufiRegular'; 
+    margin-bottom: 10px;
+}
+.end span i {
+    color: #e74c3c;
+}
+.end p {
+    color: #ecf0f1;
+    font-family: 'DroidArabicKufiRegular'; 
+    margin:0;
+}
+/*Start Scroll */
+.scroll {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    z-index: 9999;
+    display: none;
+    cursor: pointer;
+    background-color: #2c3e50;
+}
+.scroll > i {
+    color: #ecf0f1;
+    margin-top: 8px;
+    margin-right: 2px;
+    text-shadow: 0 14px 28px rgba(236,240,241,0.22), 0 10px 10px rgba(236,240,241,0.22);
+}
+
+/*End Scroll */
+/*spinner*/
+.sk-cube-grid {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: 99999;
+  background-color: #2c3e50;
+}
+
+.sk-cube-grid .sk-cube {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  position: relative;
+  top: 49%;
+  left:46%;
+  background-color:#e74c3c;
+  border-radius: 50%;
+  float: left;
+  -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+          animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
+}
+.sk-cube-grid .sk-cube1 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+.sk-cube-grid .sk-cube2 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s; }
+.sk-cube-grid .sk-cube3 {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s; }
+.sk-cube-grid .sk-cube4 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s; }
+
+@-webkit-keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  } 35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1); 
+  }
+}
+
+@keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  } 35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1);
+  } 
+}
+/*End Spinner*/
+

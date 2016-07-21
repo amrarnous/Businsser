@@ -42,6 +42,34 @@ body {
 .navbar-default .navbar-nav > li > a:hover {
         color:#e74c3c;
 }
+.language {
+    position: absolute;
+    left: 90%;
+    top: 35px;
+    font-size: 15px;
+    color: #ecf0f1;
+    font-family: 'Fjalla One';
+    display: inline;
+}
+.language a {
+    text-decoration: none;
+    color: #ecf0f1;
+    transition: all 1s;
+    text-align: center;
+}
+.language a:hover {
+    color: #e74c3c;
+}
+.language .active {
+    color: #e74c3c;
+}
+.language div {
+    margin-right: 4px;
+    display: inline;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 100%;
+    padding: 10px;
+}
 /*End NavBar*/
 header {
     width: 100%;

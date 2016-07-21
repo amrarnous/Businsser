@@ -27,6 +27,9 @@
     .navbar-default .navbar-toggle .icon-bar {
         background-color:#e74c3c;
     }
+    .language {
+    left: 50%;
+}
     .company_skills h2 {
     margin-top: 100px;
 }
@@ -34,7 +37,6 @@
     .our_team .person {
         margin-bottom: 40px;
     }
-
 }
 /*Small Screen*/
 @media (min-width: 768px) and (max-width: 991px) {
@@ -42,6 +44,8 @@
     .our_team .person {
         margin-bottom: 40px;
     }
+    .language {
+        left: 88%;   
 }
 /*medium Screen*/
 @media (min-width: 992px) and (max-width: 1199px) {

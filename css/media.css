@@ -18,7 +18,7 @@
         padding-bottom: 15px;
         
     }
-.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
     font-size: 30px;
 }
     .navbar-default .navbar-toggle {
@@ -28,6 +28,9 @@
         
         background-color:#e74c3c;
     }
+    .language {
+    left: 50%;
+}
     header .welcome h1 {
     color: #ecf0f1;
     font-size: 50px;
@@ -85,7 +88,10 @@
 }
 /*Small Screen*/
 @media (min-width: 768px) and (max-width: 991px) {
-    
+    .language {
+        left: 88%;
+    }
+
     header .welcome h1 {
     color: #ecf0f1;
     font-size: 73px;
@@ -100,9 +106,7 @@
 
 }
     header .welcome .btn-primary {
-
         margin-bottom:20px;
-
     }
     .re-blogs h3 , p {
         max-width: 300px;

@@ -24,10 +24,12 @@
     .navbar-default .navbar-toggle {
         border-color:#e74c3c; 
     }
-    .navbar-default .navbar-toggle .icon-bar {
-        
+    .navbar-default .navbar-toggle .icon-bar {       
         background-color:#e74c3c;
-    }   
+    } 
+    .language {
+    left: 50%;
+}  
 .send_messeage {
 
     margin-top: 100px;
@@ -36,4 +38,9 @@
 
     margin-left: 35%;
 }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .language {
+        left: 88%;
+   }
 }
