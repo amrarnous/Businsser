@@ -47,7 +47,7 @@ body {
 header {
     width: 100%;
     height: 300px;
-    background: url("../../TarTeam/img/cover-services.jpg") center center fixed;
+    background: url("../../img/cover-services.jpg") center center fixed;
     background-size: cover;
 }
 header .layer {
@@ -119,7 +119,7 @@ header .layer i {
     display: block;
     padding-top: 20px;
     color: #ecf0f1;
-    font-family: 'Raleway';
+    font-family: 'DroidArabicKufiRegular'; 
     margin-bottom: 10px;
 }
 .end span i {
@@ -127,7 +127,7 @@ header .layer i {
 }
 .end p {
     color: #ecf0f1;
-    font-family: 'Raleway';
+    font-family: 'DroidArabicKufiRegular'; 
     margin:0;
 }
 /*spinner*/

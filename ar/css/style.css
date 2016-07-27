@@ -46,7 +46,7 @@ body {
 }
 /*End NavBar*/
 header {
-    background: url('../img/what-we-do-header.jpg') no-repeat center center fixed;
+    background: url('../../../TarTeam/img/what-we-do-header.jpg') no-repeat center center fixed;
     background-size: cover;
     width: 100%;
     min-height: 580px;
@@ -172,7 +172,7 @@ header .welcome .btn-primary {
 /*Send Request Section*/
 .send_request {
     margin-top: 100px;
-    background: url(../img/cover_request.jpg) no-repeat center center fixed;
+    background: url(../../../TarTeam/img/cover_request.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 570px;
     max-width: 100%;
