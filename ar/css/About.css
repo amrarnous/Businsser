@@ -72,15 +72,21 @@ header .layer i {
 }
 
 .company_skills .our_company h2 {
-    font-family: 'Fjalla One';
+    font-family: 'DroidArabicKufiRegular'; 
     padding-bottom: 20px;
     color: #e74c3c ;
 }
 .company_skills .our_company .about_company {
     max-width: 100%;
     color: #2c3e50 ;
-    font-family: 'Raleway';
+    font-family: 'DroidArabicKufiRegular'; 
     padding-bottom: 20px;
+}
+.company_skills .our_company ul li {
+    font-family: 'DroidArabicKufiRegular'; 
+    color: #2c3e50 ;
+    font-weight: bold;
+    padding-bottom: 10px;
 }
 .company_skills .our_company .btn-danger {
     background-color: #e74c3c;
@@ -89,7 +95,7 @@ header .layer i {
 }
 /* Our Skills*/
 .company_skills .our_skills h2 {
-    font-family: 'Fjalla One';
+    font-family: 'DroidArabicKufiRegular'; 
     padding-bottom: 20px;
     color: #e74c3c ;
     text-align: center;
