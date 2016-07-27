@@ -82,6 +82,11 @@
 .services .service4 {
     height: 200px;
 }
+    .our-client {
+        
+        margin-right: 20%;
+        
+    }
 }
 /*Small Screen*/
 @media (min-width: 768px) and (max-width: 991px) {
@@ -107,14 +112,18 @@
     .re-blogs h3 , p {
         max-width: 300px;
     }
-    .services .container .row {
-        margin-left: 20%;
+
+    .services .service1 {
+    margin-right: 20%;
 }
     .services .service2 {
-    margin-left: 0px;
+    margin-right: 20%;
+}
+    .services .service3 {
+    margin-right: 20%;
 }
     .services .service4 {
-    margin-left: 0px;
+    margin-right: 20%;
 }
     .send_request {
     height: 758px;
@@ -125,13 +134,17 @@
     .send_request .btn-danger {
     margin-left: 40%;
 }
+    .our-client {
+        
+        margin-right: 20%;
+        
+    }
 .end {
     height: 220px;
 }
 .end p {
-
-    margin-left: 33%;
-}
+margin-right: 30%;
+    }
 }
 /*medium Screen*/
 @media (min-width: 992px) and (max-width: 1199px) {
