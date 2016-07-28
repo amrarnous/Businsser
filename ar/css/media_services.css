@@ -27,4 +27,15 @@
     .navbar-default .navbar-toggle .icon-bar {
         background-color:#e74c3c;
     }
+    .language {
+    right: 50%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .services h3 {
+        max-width: 260px;
+    }
+    .services p {
+        max-width: 280px;
+    }
 }

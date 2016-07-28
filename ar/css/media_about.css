@@ -27,6 +27,9 @@
     .navbar-default .navbar-toggle .icon-bar {
         background-color:#e74c3c;
     }
+    .language {
+    right: 50%;
+    }
     .company_skills h2 {
     margin-top: 100px;
 }

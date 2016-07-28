@@ -40,6 +40,9 @@
     font-size: 12px;
     padding-bottom: 20px;
 }
+    .language {
+    right: 50%;
+    }
     .re-blogs img {
         height: 240px;
     } 

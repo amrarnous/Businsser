@@ -24,6 +24,9 @@
     .navbar-default .navbar-toggle {
         border-color:#e74c3c; 
     }
+    .language {
+    right: 50%;
+    }
     .navbar-default .navbar-toggle .icon-bar {
         
         background-color:#e74c3c;
@@ -36,4 +39,5 @@
 
     margin-left: 35%;
 }
+    
 }
