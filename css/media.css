@@ -148,6 +148,9 @@
     .send_request .btn-danger {
     margin-left: 43%;
 }
+    .language {
+        font-size: 11px;
+    }
 }
 /*Large Screen*/
 @media (min-width: 1200px) {

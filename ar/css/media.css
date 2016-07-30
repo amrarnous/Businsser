@@ -148,6 +148,9 @@
 .end p {
 margin-right: 30%;
     }
+    .language {
+        font-size: 11px;
+    }
 }
 /*medium Screen*/
 @media (min-width: 992px) and (max-width: 1199px) {

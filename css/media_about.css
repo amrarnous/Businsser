@@ -45,7 +45,8 @@
         margin-bottom: 40px;
     }
     .language {
-        left: 88%;   
+        font-size: 11px;
+    }
 }
 /*medium Screen*/
 @media (min-width: 992px) and (max-width: 1199px) {

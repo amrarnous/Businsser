@@ -38,4 +38,7 @@
     .services p {
         max-width: 280px;
     }
+    .language {
+        font-size: 11px;
+    }
 }

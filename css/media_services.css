@@ -32,7 +32,7 @@
 }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-    .language {
-        left: 88%;
-   }
+        .language {
+        font-size: 11px;
+    }
 }

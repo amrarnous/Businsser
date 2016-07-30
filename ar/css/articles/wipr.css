@@ -243,4 +243,15 @@ article p {
     .language {
     right: 50%;
     }
+article img {
+    margin-right: 0%;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+article img {
+    margin-right: 0%;
+}
+    .language {
+        font-size: 11px;
+    }
 }
